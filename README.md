@@ -1,2 +1,6 @@
-# micro-brain
-repository of processing and analysis code for Ball et al. (2024)
+# &mu;Brain
+a 3D volumetric reconstruction of the mid-gestation fetal brain 
+
+see: [xxxxxxxxxx] 
+
+### Code repository
