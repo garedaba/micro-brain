@@ -1,4 +1,6 @@
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
 title: μBrain
 description: a 3D volumetric reconstruction of the mid-gestation fetal brain
 
+plugins:
+- jekyll-remote-theme 
