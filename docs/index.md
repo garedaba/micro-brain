@@ -1,2 +1,2 @@
 # test
-![scrolling through uBrain](_imgs/frame-296.png)
+![scrolling through uBrain](assets/images/frame-296.png)
