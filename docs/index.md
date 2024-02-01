@@ -1,2 +1,1 @@
-# test
-![scrolling through uBrain](assets/images/frame-296.png)
+![scrolling through uBrain](assets/images/ubrain.gif)
