@@ -1,3 +1,8 @@
+layout: page
+title: "about uBrain"
+permalink: /about
+
+
 ### &mu;Brain
 important information
 
