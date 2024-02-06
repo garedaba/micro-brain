@@ -1,16 +1,16 @@
-### &mu;Brain
+## &mu;Brain
 important information
 
-###### Data descriptors
+#### Data descriptors
 - blah
 - blah
 
-###### Data resources & references
+#### Data resources & references
 Ding et al.
 Miller et al.
 Allen institute Brain span
 
-###### Project funding
+#### Project funding
 <img src="./assets/images/funders.jpg" width="400"/>
 
 
