@@ -1,6 +1,18 @@
-# &mu;Brain
-important information
+## Important information
+**&mu;Brain is a under construction and subject to revision.**  
 
+Built upon existing open-source data, the &mu;Brain atlas is a new and freely-available 3D volumetric model of the mid-fetal brain. 
+
+Using serial Nissl-stained and anatomically-labelled sections of the prenatal brain (Ding et al., 2022), we performed automated image repair using a generative neural network model before aligning all sections into a common anatomical space, resulting in a 3D volume at 150&mu;m voxel resolution. 
+
+The &mu;Brain volume is accompanied by a set of brain tissue labels (n=20) and surface models of the cortical plate surface. The cortical surface is further parcellated into a set of cytoarchitecturally-defined labels (n=29). To faciliate intergration with fetal and neonatal neuroimaging studies, the cortical surfaces and parcellations have been aligned to the fetal surface template of the [Developing Human Connectome Project](https://gin.g-node.org/kcl_cdb/dhcp_fetal_brain_surface_atlas).
+
+In addition, cortical areas are matched to normalised gene expression data from corresponding laser microdissection microarrays across multiple tissue zones in three additional prenatal specimens (Miller et al. 2014) 
+
+&mu;Brain is a three-dimensional, high resolution histological atlas of the human fetal brain, coupled with bulk tissue microarray data, sampled across 29 cortical regions and 5 transient tissue zones. It provided a 3D anatomical coordinate space to facilitate integrated imaging-transcriptomic analyses of the developing brain.
+
+
+ 
 ## Data descriptors
 - blah
 - blah
