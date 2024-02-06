@@ -11,6 +11,6 @@ Miller et al.
 Allen institute Brain span
 
 ###### Project funding
-<img src="./assets/images/funders.jpg" width="500"/>
+<img src="./assets/images/funders.jpg" width="400"/>
 
 
