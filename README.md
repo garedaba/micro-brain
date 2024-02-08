@@ -7,24 +7,24 @@ see: [preprint link]
 
 ## Code repository
 ### Image repair
-To correct for tissue artefacts present in histological data, we designed an automated detect-and-repair pipeline for Nissl-stained sections based on *pix2pix*, a Generative Adversarial Network (GAN)
+To correct for tissue artefacts present in histological data, we designed an automated detect-and-repair pipeline for Nissl-stained sections based on *pix2pix*, a Generative Adversarial Network (GAN):
 
 ![pix2pix model architecture](/docs/assets/images/architecture.png)  
 
-**pix2pix/models** implementation of *pix2pix* models in [Keras](https://www.tensorflow.org/guide/keras)
+see: **pix2pix/models.py** implementation of *pix2pix* models in [Keras](https://www.tensorflow.org/guide/keras)
 
 We trained the pix2pix model on 1000 pairs of 256 × 256 image patches from (downsampled) 20μm resolution Nissl-stained sections and corresponding label annotations.
 
 ![pix2pix training patches](docs/assets/images/patches.png)  
 
-**pix2pix/run_model_training.py**  code to run *pix2pix* training on a collection of paired image patches
+see: **pix2pix/run_model_training.py**  code to run *pix2pix* training on a collection of paired image patches
 
 
 To perform repair of whole sections, we split each label image into patches of 256 × 256 pixels with an 8 pixel overlap and passed them through the trained generator. The resulting, synthetic Nissl contrast patches were stitched together into a full section matching the dimensions of the original image
 
 To detect regions of the original Nissl-stained section that needed repair, we designed an automated outlier detection method based on the Median Absolute Deviation (MAD) of pixel hue and saturation.
 
-**repair_atla_images.py**  code to perform image repair using a trained *pix2pix* model
+see: **repair_atla_images.py**  code to perform image repair using a trained *pix2pix* model
 
 ![pix2pix image repair](docs/assets/images/repaired.png)  
 
