@@ -1,5 +1,5 @@
 # &mu;Brain
-###### A 3D volumetric reconstruction of the mid-gestation fetal brain  
+#### A 3D volumetric reconstruction of the mid-gestation fetal brain  
 
 see: [preprint link]
 
