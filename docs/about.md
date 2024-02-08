@@ -15,8 +15,8 @@ In addition, cortical areas are matched to normalised gene expression data from 
  
 ## Data descriptors
 ### Volumetric data
-**&mu;Brain-volume.nii.gz** &nbsp; &nbsp; &nbsp; &nbsp; a 3D reconstruction of the cerebral hemisphere at 150&mu;m resolution  
-**&mu;Brain-atlas-labels.nii.gz**&nbsp;corresponding brain tissue labels (n=20)   
+**&mu;Brain-volume.nii.gz** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a 3D reconstruction of the cerebral hemisphere at 150&mu;m resolution  
+**&mu;Brain-atlas-labels.nii.gz** &nbsp; &nbsp;corresponding brain tissue labels (n=20)   
 **brain-tissue-labels.txt**&nbsp;look-up table for brain tissue labels  
 
 ### Surface data
