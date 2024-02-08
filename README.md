@@ -7,7 +7,7 @@ see: [preprint link]
 
 ## Code repository
 ### Image repair
-To correct for tissue artefacts present in histological data, we designed an automated detect-and-repair pipeline for Nissl-stained sections based on pix2pix, a Generative Adversarial Network (GAN)
+To correct for tissue artefacts present in histological data, we designed an automated detect-and-repair pipeline for Nissl-stained sections based on *pix2pix*, a Generative Adversarial Network (GAN)
 
 ![pix2pix model architecture](/docs/assets/images/architecture.png)  
 
