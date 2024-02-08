@@ -11,7 +11,7 @@ To correct for tissue artefacts present in histological data, we designed an aut
 
 ![pix2pix model architecture](/docs/assets/images/architecture.png)  
 
-see: **pix2pix/models.py** implementation of *pix2pix* models in [Keras](https://www.tensorflow.org/guide/keras)
+see: [**pix2pix/models.py**](/pix2pix/models.py) implementation of *pix2pix* models in [Keras](https://www.tensorflow.org/guide/keras)
 
 We trained the pix2pix model on 1000 pairs of 256 × 256 image patches from (downsampled) 20μm resolution Nissl-stained sections and corresponding label annotations.
 
