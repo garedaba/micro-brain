@@ -14,14 +14,17 @@ In addition, cortical areas are matched to normalised gene expression data from 
 
  
 ## Data descriptors
+### Volumetric data
 **&mu;Brain-volume.nii.gz** a 3D reconstruction of the cerebral hemisphere at 150&mu;m resolution  
 **&mu;Brain-atlas-labels.nii.gz** corresponding brain tissue labels (n=20)   
 **brain-tissue-labels.txt** look-up table for brain tissue labels  
 
+### Surface data
 **&mu;Brain.R.inner/outer.surf.gii**  inner and outer cortical surfaces of the &mu;Brain volume  
 **&mu;Brain.cortical-atlas.fetal36w-template.label.gii** &mu;Brain cortical atlas projected onto the dHCP template surface  
 **cortical_labels.txt** look-up table for cortical atlas labels  
 
+### Microarray data
 **&mu;Brain-processed-lmd-data.csv** LMD microarray data aligned to the &mu;Brain cortical atlas in long format. Each row contains normalised expression for a single observation. Each observation is identified by tissue (cortical plate, subplate, etc), cortical region in &mu;Brain, specimen and gene.
 
 
