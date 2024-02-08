@@ -27,6 +27,7 @@ look-up table for brain tissue labels
 ## Surface data
 **&mu;Brain.R.inner/outer.surf.gii**  
 inner and outer cortical surfaces of the &mu;Brain volume  
+
 **&mu;Brain.cortical-atlas.fetal36w-template.label.gii**  
 &mu;Brain cortical atlas projected onto the dHCP template surface  
 
