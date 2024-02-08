@@ -17,7 +17,7 @@ To correct for tissue artefacts present in histological data, we designed an aut
 We trained the pix2pix model on 1000 pairs of 256 × 256 image patches from (downsampled) 20μm resolution Nissl-stained sections and corresponding label annotations.
 
 ***Training data***  
-[!pix2pix training patches](docs/assets/images/patches.png)  
+![pix2pix training patches](docs/assets/images/patches.png)  
 
 **pix2pix/run_model_training.py**  code to run *pix2pix* training on a collection of paired image patches
 
@@ -28,7 +28,7 @@ To detect regions of the original Nissl-stained section that needed repair, we d
 
 **repair_atla_images.py**  code to perform image repair using a trained *pix2pix* model
 
-[!pix2pix image repair](docs/assets/images/repaired.png)  
+![pix2pix image repair](docs/assets/images/repaired.png)  
 
 
 
@@ -49,7 +49,7 @@ To create the final 3D volume, we employed a data augmentation technique, genera
 
 **create_template.py** code for final nonlinear alignment
 
-[!pix2pix image repair](docs/assets/images/reconstruction.png)  
+![pix2pix image repair](docs/assets/images/reconstruction.png)  
 
 
 ### Cortical surface extraction and registration
