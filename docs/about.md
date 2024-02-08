@@ -20,7 +20,7 @@ In addition, cortical areas are matched to normalised gene expression data from 
 **brain-tissue-labels.txt** &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;look-up table for brain tissue labels  
 
 ### Surface data
-**&mu;Brain.R.inner/outer.surf.gii** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;inner and outer cortical surfaces of the &mu;Brain volume  
+**&mu;Brain.R.inner/outer.surf.gii** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;inner and outer cortical surfaces of the &mu;Brain volume  
 **&mu;Brain.cortical-atlas.fetal36w-template.label.gii** &nbsp; &mu;Brain cortical atlas projected onto the dHCP template surface  
 **cortical_labels.txt**                                   look-up table for cortical atlas labels  
 
