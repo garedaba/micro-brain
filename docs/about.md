@@ -5,7 +5,7 @@ Built upon existing open-source data, the &mu;Brain atlas is a new and freely-av
 
 Using serial Nissl-stained and anatomically-labelled sections of the prenatal brain (Ding et al., 2022), we performed automated image repair using a generative neural network model before aligning all sections into a common anatomical space, resulting in a 3D volume at 150&mu;m voxel resolution. 
 
-The &mu;Brain volume is accompanied by a set of brain tissue labels (n=20) and surface models of the cortical plate surface. The cortical surface is further parcellated into a set of cytoarchitecturally-defined labels (n=29). To faciliate intergration with fetal and neonatal neuroimaging studies, the cortical surfaces and parcellations have been aligned to the fetal surface template of the [Developing Human Connectome Project](https://gin.g-node.org/kcl_cdb/dhcp_fetal_brain_surface_atlas).
+The &mu;Brain volume is accompanied by a set of brain tissue labels (n=20) and surface models of the cortical plate surface. The cortical surface is further parcellated into a set of cytoarchitecturally-defined labels (n=29). To faciliate integration with fetal and neonatal neuroimaging studies, the cortical surfaces and parcellations have been aligned to the fetal surface template of the [Developing Human Connectome Project](https://gin.g-node.org/kcl_cdb/dhcp_fetal_brain_surface_atlas).
 
 ![uBrain atlas on dHCP cortical surface](assets/images/surfaces.png)
 
