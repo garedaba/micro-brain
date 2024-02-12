@@ -60,11 +60,12 @@ see: [**run_freesurfer_commands_2.sh**](surface_alignments/run_freesurfer_comman
 
 ![ubrain surface extraction](docs/assets/images/mesh.png)  
 
+We aligned the μBrain cortical surface to the earliest timepoint of the dHCP fetal template surface using a two-step nonlinear surface registration guided by a set of anatomical priors. We used MSM to perform an initial nonlinear spherical registration between μBrain and dHCP surfaces based on alignment of sulcal depth. After this, we created a set of coarse cortical labels on the dHCP surface matched to corresponding μBrain labels by combining a) dHCP cortical atlas labels,87 b) manual labels guided by sulcal anatomy on the 36 week fetal surface and c) combining μBrain labels in the same lobes into single anatomical labels. A secondary multivariate spherical registration between μBrain and fetal surfaces was initialised using the previously calculated sulcal alignment and driven by alignment of cortical ROIs across surfaces
 
+see: [**run_dHCP_registration.sh**](surface_alignments/run_dHCP_registration.sh)  
 
-run_registration_1  
-run_registration_2  
-transfor_native to template
+![ubrain surface registration](docs/assets/images/registration.png)  
+
 
 ### Microarray data reprocessing
 MicrorraData, reannotate
