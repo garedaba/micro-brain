@@ -51,6 +51,15 @@ see: [**create_template.py**](/create_template.py) code for final nonlinear alig
 
 
 ### Cortical surface extraction and registration
+To reconstruct the fetal cortical surface, we adapted existing protocols for [ex vivo]([https://freesurfer.net/fswiki/ExVivo) and [non-human primate](https://prime-re.github.io/) surface reconstruction with Freesurfer. We used the μBrain tissue labels to generate a ‘white matter’ mask (all subcortical structures and tissue zones, excluding the cortical plate). We used this mask to generate inner and outer surfaces for the μBrain volume.
+
+see: [**run_freesurfer_commands_1.sh**](surface_alignments/run_freesurfer_commands_1.sh)  
+see: [**run_freesurfer_commands_2.sh**](surface_alignments/run_freesurfer_commands_2.sh)
+
+![ubrain surface extraction](docs/assets/images/mesh.png)  
+
+
+
 run_registration_1  
 run_registration_2  
 transfor_native to template
