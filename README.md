@@ -11,20 +11,22 @@ To correct for tissue artefacts present in histological data, we designed an aut
 
 ![pix2pix model architecture](/docs/assets/images/architecture.png)  
 
-see: [**models.py**](/pix2pix/models.py) implementation of *pix2pix* models in [Keras](https://www.tensorflow.org/guide/keras)
+*pix2pix* models were implemented in [Keras](https://www.tensorflow.org/guide/keras)
+
+see: [**models.py**](/pix2pix/models.py)
 
 We trained the pix2pix model on 1000 pairs of 256 × 256 image patches from (downsampled) 20μm resolution Nissl-stained sections and corresponding label annotations.
 
 ![pix2pix training patches](docs/assets/images/patches.png)  
 
-see: [**run_model_training.py**](/pix2pix/run_model_training.py)  code to run *pix2pix* training on a collection of paired image patches
+see: [**run_model_training.py**](/pix2pix/run_model_training.py)  
 
 
 To perform repair of whole sections, we split each label image into patches of 256 × 256 pixels with an 8 pixel overlap and passed them through the trained generator. The resulting, synthetic Nissl contrast patches were stitched together into a full section matching the dimensions of the original image
 
 To detect regions of the original Nissl-stained section that needed repair, we designed an automated outlier detection method based on the Median Absolute Deviation (MAD) of pixel hue and saturation.
 
-see: [**repair_atlas_images.py**](/repair_atlas_images.py)  code to perform image repair using a trained *pix2pix* model
+see: [**repair_atlas_images.py**](/repair_atlas_images.py)  
 
 ![pix2pix image repair](docs/assets/images/repaired.png)  
 
@@ -35,17 +37,17 @@ Following automated repair of major tissue artefacts present in the histological
 
 Using the middle section as a reference, repaired Nissl-stained sections were aligned using a [graph-based, slice-to-slice registration](https://github.com/pmajka/poSSum). Pairwise rigid transforms were estimated between each section and its neighbouring sections in the direction of the reference. Dijkstra’s shortest-path algorithm was then used to calculate the set of transforms with lowest cost to align a given section to the reference. See also
 
-see: [**initial_sequential alignment.py**](/initial_sequential_alignment.py) code to perform initial slice-to-slice alignment using a shortest-path algorithm
+see: [**initial_sequential alignment.py**](/initial_sequential_alignment.py)
 
 We used a population-based average anatomical image: the 22-week timepoint of the [Gholipour et al. spatio-temporal fetal MRI atlas](https://www.nature.com/articles/s41598-017-00525-w) as shape prior for 3D reconstruction. After matching MRI-based tissue labels to the μBrain tissue labels, we upsampled the MRI template to 50μm isotropic resolution and converted the MRI labels into an image Nissl-like contrast using the trained GAN model. Nissl-contrast images were re-stacked into a 3D volume to act as an anatomical prior for registration.
 
 We performed an iterative affine registration procedure between the MRI-based shape prior and the 3D stack of histological sections. This process was repeated for a total 5 iterations, producing a final 3D volume with aligned coronal slices and a global shape approximately matched to the in utero fetal brain
 
-see: [**align_2D_to_3D_reference.py**](/align_2D_to_3D_reference.py) code to perform 2D-to-3D affine registration
+see: [**align_2D_to_3D_reference.py**](/align_2D_to_3D_reference.py)
 
 To create the final 3D volume, we employed a data augmentation technique, generating n=50 unique representations of the affinely-aligned data by applying nonlinear distortions along all three image axes. For each volume, we performed a weighted nonlinear registration between neighbouring sections to account for residual misalignments. Finally, to create a smooth 3D reconstructed volume, we co-registered all 50 augmented and aligned volumes into a single probabilistic anatomical template with voxel resolution 150 × 150 × 150μm using an iterative, whole-brain nonlinear registration
 
-see: [**create_template.py**](/create_template.py) code for final nonlinear alignment
+see: [**create_template.py**](/create_template.py)
 
 ![pix2pix image repair](docs/assets/images/reconstruction.png)  
 
