@@ -78,7 +78,7 @@ Tissue sample loctions were matched to cortical regions in the μBrain atlas ([*
 see: [**process_microarray_data.py**](MicroarrayData/process_microarray_data.py)
 
 ## Analysis
-#### Cortical scaling  
+### Cortical scaling  
 - remove vertex outliers from cortical area data using a sliding window approach
 - model total cortical surface area as a function of age
 - fit vertexwise log-log models to cortical area
@@ -88,7 +88,7 @@ see: [**process_microarray_data.py**](MicroarrayData/process_microarray_data.py)
 
 see: [**01-scaling-models.ipynb**](ANALYSIS/01-scaling-models.ipynb)
 
-#### Gene expression
+### Gene expression
 - perform PCA on preprocessed microarray data
 - perform ANOVA for main effects of Zone, Region and Timepoint to identify ZRT genes
 
@@ -96,14 +96,20 @@ see: [**01-scaling-models.ipynb**](ANALYSIS/01-scaling-models.ipynb)
 
 see: [**02-gene-correlations.ipynb**](ANALYSIS/02-gene-correlations.ipynb)
 
-#### ZRT analysis
+### ZRT analysis
+- test age effects on ZRT gene expression and identify up- and down-regulated ZRT genes in each tissue zone
+- enrichment of specific cell type markers in ZRT genes
+- average expression of ZRT genes at each timepoint across all zones and regions
+
 
 ![ZRT UMAP](docs/assets/images/umap.png)  
 
 see: [**03-ZRT-gene-analysis.ipynb**](ANALYSIS/03-ZRT-gene-analysis.ipynb)
 
+### Association between gene expression and scaling
 
-04-  
+
+
 05-  
 06-  
 
