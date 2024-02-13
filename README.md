@@ -79,39 +79,61 @@ see: [**process_microarray_data.py**](MicroarrayData/process_microarray_data.py)
 
 ## Analysis
 ### Cortical scaling  
+see: [**01-scaling-models.ipynb**](ANALYSIS/01-scaling-models.ipynb)
+
 - remove vertex outliers from cortical area data using a sliding window approach
 - model total cortical surface area as a function of age
 - fit vertexwise log-log models to cortical area
 - output areal scaling maps and scaling for each &mu;Brain region
-
 ![cortical scaling](docs/assets/images/scaling.png)  
 
-see: [**01-scaling-models.ipynb**](ANALYSIS/01-scaling-models.ipynb)
 
 ### Gene expression
-- perform PCA on preprocessed microarray data
-- perform ANOVA for main effects of Zone, Region and Timepoint to identify ZRT genes
-
-![gene PCA](docs/assets/images/pca.png)  
-
 see: [**02-gene-correlations.ipynb**](ANALYSIS/02-gene-correlations.ipynb)
 
+- perform PCA on preprocessed microarray data
+- perform ANOVA for main effects of Zone, Region and Timepoint to identify ZRT genes
+![gene PCA](docs/assets/images/pca.png)  
+
+
 ### ZRT analysis
+see: [**03-ZRT-gene-analysis.ipynb**](ANALYSIS/03-ZRT-gene-analysis.ipynb)
+
 - test age effects on ZRT gene expression and identify up- and down-regulated ZRT genes in each tissue zone
 - enrichment of specific cell type markers in ZRT genes
 - average expression of ZRT genes at each timepoint across all zones and regions
-
-
 ![ZRT UMAP](docs/assets/images/umap.png)  
 
-see: [**03-ZRT-gene-analysis.ipynb**](ANALYSIS/03-ZRT-gene-analysis.ipynb)
 
 ### Association between gene expression and scaling
+see: [**04-gene-expression-and-areal-scaling.ipynb**](ANALYSIS/04-gene-expression-and-areal-scaling.ipynb)
+
+- perform correlations between regional allometric scaling and gene expression
+- identify tissue location of significant associations
+![expression of gene markers](docs/assets/images/ZRT.png)  
+
+
+### Characterisation of scaling genes
+see: [**05-scaling-characterisation.ipynb**](ANALYSIS/05-scaling-characterisation.ipynb)
+
+- cortical cell type specificity of ZRT scaling genes
+- expression of hypo- and hyper-allometric ZRTscaling and ZRTneo genes
+- cell type enrichment of ZRTscaling and ZRTneo genes
+- expression of MDK and CUX1 over all regions and tissue zones
+![expression of gene markers](docs/assets/images/gene-markers.png)  
+
+
+### OCR analysis
+see: [**06-open-chromatin.ipynb**](ANALYSIS/06-open-chromatin.ipynb)
+
+- enrichment of ZRT in genes located near to open chromatin regions of the prenatal brain
+- laminar specific enrichment
+- identification of TF motifs
+![OCR enrichment](docs/assets/images/ocrs.png)  
 
 
 
-05-  
-06-  
+
 
 ## References and related material
 Ding, S.-L. et al. *Cellular resolution anatomical and molecular atlases for prenatal human brains.* J. Comp. Neurol. 530, 6–503 (2022).  
