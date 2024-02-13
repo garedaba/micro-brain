@@ -1,0 +1,517 @@
+structure_id,structure_name,tissue,cortical_region
+10179,lateral subdivision of area 9,???,dorsolateral_pfc
+11341,rostral presubiculum,???,hippocampus
+10381,amygdalostriatal transition area,amygdaloid,brain_tissue
+10362,anterior amygdaloid area,amygdaloid,brain_tissue
+10374,anterior cortical nucleus,amygdaloid,brain_tissue
+10368,basolateral nucleus (basal nucleus),amygdaloid,brain_tissue
+10369,basomedial nucleus (accessory basal nucleus),amygdaloid,brain_tissue
+10384,bed nucleus of stria terminalis,amygdaloid,brain_tissue
+10378,Intercalated nucleus of amygdala,amygdaloid,brain_tissue
+11531,caudal subdivision of medial nucleus,amygdaloid,brain_tissue
+10363,central nuclear group,amygdaloid,brain_tissue
+11506,central part of CEl,amygdaloid,brain_tissue
+10371,endopiriform nucleus,amygdaloid,brain_tissue
+10367,lateral nucleus,amygdaloid,brain_tissue
+10386,lateral subdivision of BNST,amygdaloid,brain_tissue
+10364,medial subdivision of central nucleus,amygdaloid,brain_tissue
+10375,posterior cortical nucleus,amygdaloid,brain_tissue
+11530,rostral subdivision of medial nucleus,amygdaloid,brain_tissue
+10353,basal nucleus of Meynert,basal_forebrain,brain_tissue
+10347,Dorsal claustrum,basal_forebrain,brain_tissue
+10352,lateral septal nucleus,basal_forebrain,brain_tissue
+10351,medial septal nucleus,basal_forebrain,brain_tissue
+10354,nucleus of diagonal band,basal_forebrain,brain_tissue
+10357,nucleus subputaminalis,basal_forebrain,brain_tissue
+10348,ventral claustrum,basal_forebrain,brain_tissue
+10410,anterior nucleus of pulvinar,basal_ganglia,brain_tissue
+10336,body of caudate,basal_ganglia,brain_tissue
+11538,caudal putamen,basal_ganglia,brain_tissue
+10344,internal segment of globus pallidus,basal_ganglia,brain_tissue
+11541,medioventral part of putamen,basal_ganglia,brain_tissue
+10337,tail of caudate,basal_ganglia,brain_tissue
+11548,central portion of GPi,basal_ganglia,brain_tissue
+10340,core of nucleus accumbens,basal_ganglia,brain_tissue
+10343,external segment of globus pallidus,basal_ganglia,brain_tissue
+10335,head of caudate,basal_ganglia,brain_tissue
+11549,peripheral portion of GPi,basal_ganglia,brain_tissue
+11537,rostral putamen,basal_ganglia,brain_tissue
+11545,lateral portion of the shell,basal_ganglia,brain_tissue
+11539,laterodorsal part of putamen,basal_ganglia,brain_tissue
+11547,medial portion of the shell,basal_ganglia,brain_tissue
+10345,Ventral pallidus,basal_ganglia,brain_tissue
+12808,choroid plexus of the fourth ventricle,choroid_plexus,brain_tissue
+10328,agranular insular cortex (area Iag),???,agranular_insula
+11693,inner CP in primary auditory cortex,cortical_plate,auditory
+11692,outer CP in primary auditory cortex,cortical_plate,auditory
+11724,inner CP in caudal cingulate cortex,cortical_plate,caudal_cingulate
+11723,outer CP in caudal cingulate cortex,cortical_plate,caudal_cingulate
+11684,inner CP in posterosuperior (dorsal) parietal cortex,cortical_plate,dorsal_parietal
+11683,outer CP in posterosuperior (dorsal) parietal cortex,cortical_plate,dorsal_parietal
+11690,inner CP in dorsomedial parietal cortex (area 7m),cortical_plate,dorsal_parietal
+11689,outer CP in dorsomedial parietal cortex (area 7m),cortical_plate,dorsal_parietal
+11660,inner CP in dorsolateral prefrontal cortex,cortical_plate,dorsolateral_pfc
+11659,outer CP in dorsolateral prefrontal cortex,cortical_plate,dorsolateral_pfc
+10181,intermediate portion of DFC (area 9/46),???,dorsolateral_pfc
+11651,inner CP in dorsomedial frontal cortex,cortical_plate,dorsolateral_pfc
+11650,outer CP in dorsomedial frontal cortex,cortical_plate,dorsolateral_pfc
+11696,inner CP in superolateral temporal cortex,cortical_plate,dorsolateral_temporal
+11695,outer CP in superolateral temporal cortex,cortical_plate,dorsolateral_temporal
+11731,inner CP in dysgranular insular cortex,cortical_plate,dysgranular_insula
+11730,outer CP in dysgranular insular cortex,cortical_plate,dysgranular_insula
+11672,inner CP in dorsomedial extrastriate cortex,cortical_plate,extrastriate
+11678,inner CP in midlateral extrastriate cortex,cortical_plate,extrastriate
+11675,inner CP in ventromedial extrastriate cortex,cortical_plate,extrastriate
+11671,outer CP in dorsomedial extrastriate cortex,cortical_plate,extrastriate
+11677,outer CP in midlateral extrastriate cortex,cortical_plate,extrastriate
+11674,outer CP in ventromedial extrastriate cortex,cortical_plate,extrastriate
+11666,inner CP in frontal polar cortex,cortical_plate,frontal_pole
+11665,outer CP in frontal polar cortex,cortical_plate,frontal_pole
+11734,inner CP in granular insular cortex,cortical_plate,granular_insula
+11733,outer CP in granular insular cortex,cortical_plate,granular_insula
+11737,CP in caudal hippocampus,cortical_plate,hippocampus
+11740,CP in caudal subicular cortex,cortical_plate,hippocampus
+11736,CP in rostral hippocampus,cortical_plate,hippocampus
+11711,inner CP in lateral temporal-occipital cortex,cortical_plate,lateral_temporal-occipital
+11710,outer CP in lateral temporal-occipital cortex,cortical_plate,lateral_temporal-occipital
+11708,inner CP in medial temporal-occipital cortex,cortical_plate,medial_temporal-occipital
+11707,outer CP in medial temporal-occipital cortex,cortical_plate,medial_temporal-occipital
+11721,inner CP in midcingulate cortex,cortical_plate,midcingulate
+11720,outer CP in midcingulate cortex,cortical_plate,midcingulate
+10164,head and face region of M1,???,motor
+10167,lower limb region of M1,???,motor
+10165,upper limb region of M1,???,motor
+11657,inner CP in posteror frontal cortex (motor cortex),cortical_plate,motor
+11656,outer CP in posteror frontal cortex (motor cortex),cortical_plate,motor
+11712,CP in temporal polar cortex,cortical_plate,NO_LABEL
+11714,inner CP in temporal polar cortex,cortical_plate,NO_LABEL
+11713,outer CP in temporal polar cortex,cortical_plate,NO_LABEL
+11654,inner CP in orbital frontal cortex,cortical_plate,orbitofrontal
+11653,outer CP in orbital frontal cortex,cortical_plate,orbitofrontal
+11705,inner CP in posterior parahippocampal cortex,cortical_plate,parahippocampal
+11704,outer CP in posterior parahippocampal cortex,cortical_plate,parahippocampal
+11752,inner CP in caudal perirhinal cortex,cortical_plate,perirhinal
+11749,inner CP in rostral perirhinal cortex,cortical_plate,perirhinal
+11751,outer CP in caudal perirhinal cortex,cortical_plate,perirhinal
+11748,outer CP in rostral perirhinal cortex,cortical_plate,perirhinal
+10168,premotor cortex (area 6),???,premotor
+11669,inner CP in primary visual cortex,cortical_plate,primary_visual
+11668,outer CP in primary visual cortex,cortical_plate,primary_visual
+11753,CP in retrosplenial cortex,cortical_plate,retrosplenial
+11718,inner CP in rostral cingulate cortex,cortical_plate,rostral_cingulate
+11717,outer CP in rostral cingulate cortex,cortical_plate,rostral_cingulate
+11681,inner CP in primary somatosensory cortex,cortical_plate,sensory
+11680,outer CP in primary somatosensory cortex,cortical_plate,sensory
+11727,inner CP in subgenual (subcallosal) cingulate cortex,cortical_plate,subcallosal_cingulate
+11726,outer CP in subgenual (subcallosal) cingulate cortex,cortical_plate,subcallosal_cingulate
+10232,caudal division of IPC (area 39),???,ventral_parietal
+11687,inner CP in posteroinferior (ventral) parietal cortex,cortical_plate,ventral_parietal
+11686,outer CP in posteroinferior (ventral) parietal cortex,cortical_plate,ventral_parietal
+10186,caudal portion of VFC (area 44),???,ventrolateral_pfc
+11663,inner CP in ventrolateral prefrontal cortex,cortical_plate,ventrolateral_pfc
+11662,outer CP in ventrolateral prefrontal cortex,cortical_plate,ventrolateral_pfc
+11699,inner CP in inferolateral temporal cortex,cortical_plate,ventrolateral_temporal
+11698,outer CP in inferolateral temporal cortex,cortical_plate,ventrolateral_temporal
+13101,inner CP in (rostral) midinferior temporal cortex (area 36),cortical_plate,ventrolateral_temporal
+13104,inner CP in caudal midinferior temporal cortex (area TF),cortical_plate,ventrolateral_temporal
+11702,inner CP in midinferior temporal cortex,cortical_plate,ventrolateral_temporal
+13100,outer CP in (rostral) midinferior temporal cortex (area 36),cortical_plate,ventrolateral_temporal
+13103,outer CP in caudal midinferior temporal cortex (area TF),cortical_plate,ventrolateral_temporal
+11701,outer CP in midinferior temporal cortex,cortical_plate,ventrolateral_temporal
+13098,CP in midlateral temporal cortex,cortical_plate,ventrolateral_temporal
+11431,deep layers of caudal entorhinal cortex,???,entorhinal
+11378,deep layers of olfactory entorhinal cortex,???,entorhinal
+11388,deep layers of rostral entorhinal cortex,???,entorhinal
+10280,dorsorostral division of MFC (area 32),???,rostral_cingulate
+11412,lateral intermediate part of entorhinal cortex,???,entorhinal
+10205,lateral orbital frontal cortex (area 12/47),???,orbitofrontal
+11391,laterorostral part of entorhinal cortex,???,entorhinal
+11425,layer I of caudal entorhinal cortex,cortical_plate,entorhinal
+11335,layer I of piriform cortex,cortical_plate,paleocortex
+11426,layer II of caudal entorhinal cortex,cortical_plate,entorhinal
+11336,layer II of piriform cortex,cortical_plate,paleocortex
+11384,layer II of rostral entorhinal cortex,cortical_plate,entorhinal
+11427,layer III of caudal entorhinal cortex,cortical_plate,entorhinal
+11337,layer III of piriform cortex,cortical_plate,paleocortex
+11385,layer III of rostral entorhinal cortex,cortical_plate,entorhinal
+11428,layer IIIa of caudal entorhinal cortex,cortical_plate,entorhinal
+11429,layer IIIb of caudal entorhinal cortex,cortical_plate,entorhinal
+11432,layer V of caudal entorhinal cortex,cortical_plate,entorhinal
+11433,layer VI of caudal entorhinal cortex,cortical_plate,entorhinal
+11401,medial intermediate part of entorhinal cortex,???,entorhinal
+10244,polysensory temporal cortex (area 22p),???,dorsolateral_temporal
+10175,laterodorsal subdivision of area 8,???,dorsolateral_pfc
+11464,layer II of area 35c,cortical_plate,perirhinal
+11465,layer III of area 35c,cortical_plate,perirhinal
+11468,layer IIIu of area 35c,cortical_plate,perirhinal
+11460,layer IIIu of area 35r,cortical_plate,perirhinal
+11469,layer V of area 35c,cortical_plate,perirhinal
+11470,layer VI of area 35c,cortical_plate,perirhinal
+10191,medial subdivision of area 10,???,brain_tissue
+11371,olfactory part of entorhinal cortex,???,entorhinal
+10316,parasubicular cortex (parasubiculum),???,entorhinal
+11308,pyramidal cells of caudal CA4,???,hippocampus
+11307,pyramidal cells of rostral CA4,???,hippocampus
+11315,pyramidal layer of caudal subiculum,cortical_plate,hippocampus
+11311,pyramidal layer of rostral subiculum,cortical_plate,hippocampus
+10199,rostral division of OFCi (area 11),???,orbitofrontal
+11381,rostral part of entorhinal cortex,???,entorhinal
+11283,stratum pyramidale of caudal CA1,cortical_plate,hippocampus
+11293,stratum pyramidale of caudal CA2,cortical_plate,hippocampus
+11305,stratum pyramidale of caudal CA3,cortical_plate,hippocampus
+11278,stratum pyramidale of rostral CA1,cortical_plate,hippocampus
+11288,stratum pyramidale of rostral CA2,cortical_plate,hippocampus
+11299,stratum pyramidale of rostral CA3,cortical_plate,hippocampus
+10281,subgenual (subcallosal) division of MFC (area 25),???,subcallosal_cingulate
+10552,caudal ganglionic eminence,ganglionic_eminence,brain_tissue
+13307,inner portion of lateral ganglionic eminence,ganglionic_eminence,brain_tissue
+13310,inner portion of medial ganglionic eminence,ganglionic_eminence,brain_tissue
+10551,lateral ganglionic eminence,ganglionic_eminence,brain_tissue
+13308,MGE-Lateral region,ganglionic_eminence,brain_tissue
+13306,outer portion of lateral ganglionic eminence,ganglionic_eminence,brain_tissue
+13309,outer portion of medial ganglionic eminence,ganglionic_eminence,brain_tissue
+13305,LGE-VZ border region,ganglionic_eminence,brain_tissue
+10550,medial ganglionic eminence,ganglionic_eminence,brain_tissue
+12418,abducens nucleus,hindbrain,brain_tissue
+12807,area postrema,hindbrain,brain_tissue
+12724,caudal (posterior) extramural migratory stream,hindbrain,brain_tissue
+12390,lateral hemisphere of cerebellum,hindbrain,brain_tissue
+12612,intercalated nucleus of medulla,hindbrain,brain_tissue
+12399,interpositus (intermediate) nucleus,hindbrain,brain_tissue
+10658,cerebellar vermis,hindbrain,brain_tissue
+12437,cochlear nuclei,hindbrain,brain_tissue
+12589,cuneate nucleus,hindbrain,brain_tissue
+12396,dentate (lateral) nucleus,hindbrain,brain_tissue
+12438,dorsal cochlear nucleus,hindbrain,brain_tissue
+12550,dorsal motor nucleus of the vagus (vagal nucleus),hindbrain,brain_tissue
+12703,external granular (germinal) layer of lower rhombic lip,hindbrain,brain_tissue
+12702,external granular (germinal) layer of upper rhombic lip,hindbrain,brain_tissue
+12420,facial nucleus,hindbrain,brain_tissue
+12625,gigantocellular reticular nuclei,hindbrain,brain_tissue
+12592,gracile nucleus,hindbrain,brain_tissue
+12545,hypoglossal nucleus,hindbrain,brain_tissue
+12603,"inferior olive, dorsal nucleus",hindbrain,brain_tissue
+12605,"inferior olive, medial nucleus",hindbrain,brain_tissue
+12610,"inferior olive, principal nucleus",hindbrain,brain_tissue
+12482,lateral parabrachial nucleus,hindbrain,brain_tissue
+12634,lateral reticular nucleus (principal part),hindbrain,brain_tissue
+10666,lower (caudal) rhombic lip,hindbrain,brain_tissue
+12487,medial parabrachial nucleus,hindbrain,brain_tissue
+12470,medial superior olive,hindbrain,brain_tissue
+12581,medial vestibular nucleus,hindbrain,brain_tissue
+12429,motor nucleus of trigeminal nerve,hindbrain,brain_tissue
+12499,nucleus coeruleus,hindbrain,brain_tissue
+12571,parasolitary nucleus,hindbrain,brain_tissue
+12384,paravermis of cerebellum,hindbrain,brain_tissue
+12406,pontine nucleus,hindbrain,brain_tissue
+12726,pontobulbar body,hindbrain,brain_tissue
+12615,prepositus hypoglossal nucleus,hindbrain,brain_tissue
+12444,principal sensory nucleus of trigeminal nerve,hindbrain,brain_tissue
+12642,raphe magnus nucleus,hindbrain,brain_tissue
+12643,raphe obscurus nucleus,hindbrain,brain_tissue
+12497,reticulotegmental nucleus,hindbrain,brain_tissue
+12723,rostral (anterior) extramural migratory stream,hindbrain,brain_tissue
+12623,rostral ventral respiratory cell group,hindbrain,brain_tissue
+12557,solitary nucleus,hindbrain,brain_tissue
+12585,spinal (inferior) vestibular nucleus,hindbrain,brain_tissue
+12572,spinal trigeminal nucleus,hindbrain,brain_tissue
+12707,transient Purkinje cell clusters,hindbrain,brain_tissue
+10665,upper (rostral) rhombic lip,hindbrain,brain_tissue
+12679,ventricular (matrix) zone of cerebellum,hindbrain,brain_tissue
+12680,ventricular (matrix) zone of pons,hindbrain,brain_tissue
+10475,anterior hypothalamic nucleus,hypothalamus,brain_tissue
+10492,arcuate nucleus of hypothalamus,hypothalamus,brain_tissue
+10482,"lateral hypothalamic area, anterior part",hypothalamus,brain_tissue
+10494,"lateral hypothalamic area, tuberal part",hypothalamus,brain_tissue
+10485,dorsomedial hypothalamic nucleus,hypothalamus,brain_tissue
+10493,lateral tuberal nuclei,hypothalamus,brain_tissue
+10499,medial mammillary nucleus,hypothalamus,brain_tissue
+10470,medial preoptic nucleus,hypothalamus,brain_tissue
+10476,paraventricular nucleus of hypothalamus,hypothalamus,brain_tissue
+10469,"periventricular nucleus, preoptic portion",hypothalamus,brain_tissue
+10503,posterior hypothalamic nucleus,hypothalamus,brain_tissue
+10481,supraoptic nucleus,hypothalamus,brain_tissue
+10488,ventromedial hypothalamic nucleus,hypothalamus,brain_tissue
+11834,IZ in primary auditory cortex,intermediate,auditory
+11865,IZ in caudal cingulate cortex,intermediate,caudal_cingulate
+11872,IZ in dysgranular insular cortex,intermediate,dorsal_parietal
+11825,IZ in posterosuperior (dorsal) parietal cortex,intermediate,dorsal_parietal
+11831,IZ in dorsomedial parietal cortex (area 7m),intermediate,dorsal_parietal
+11801,IZ in dorsolateral prefrontal cortex,intermediate,dorsolateral_pfc
+11792,IZ in dorsomedial frontal cortex,intermediate,dorsolateral_pfc
+11837,IZ in superolateral temporal cortex,intermediate,dorsolateral_temporal
+11813,IZ in dorsomedial extrastriate cortex (V2),intermediate,extrastriate
+11819,IZ in midlateral extrastriate cortex (area 19),intermediate,extrastriate
+11807,IZ in frontal polar cortex,intermediate,frontal_pole
+11873,IZ in granular insular cortex,intermediate,granular_insula
+11852,IZ in lateral temporal-occipital cortex,intermediate,lateral_temporal-occipital
+11849,IZ in medial temporal-occipital cortex,intermediate,medial_temporal-occipital
+11862,IZ in midcingulate cortex,intermediate,midcingulate
+11798,IZ in posteror frontal cortex (motor cortex),intermediate,motor
+11795,IZ in orbital frontal cortex,intermediate,orbitofrontal
+11846,IZ in posterior parahippocampal cortex,intermediate,parahippocampal
+13143,IZ in caudal perirhinal cortex,intermediate,perirhinal
+11810,IZ in primary visual cortex,intermediate,primary_visual
+11859,IZ in rostral cingulate cortex,intermediate,rostral_cingulate
+11822,IZ in primary somatosensory cortex,intermediate,sensory
+11868,IZ in subgenual (subcallosal) cingulate cortex,intermediate,subcallosal_cingulate
+11828,IZ in posteroinferior (ventral) parietal cortex,intermediate,ventral_parietal
+11804,IZ in ventrolateral prefrontal cortex,intermediate,ventrolateral_pfc
+11840,IZ in inferolateral temporal cortex,intermediate,ventrolateral_temporal
+13132,IZ in caudal midinferior temporal cortex (area TF),intermediate,ventrolateral_temporal
+13130,IZ in midlateral temporal cortex,intermediate,ventrolateral_temporal
+11621,MZ in primary auditory cortex,marginal,auditory
+11632,MZ in caudal cingulate cortex,marginal,caudal_cingulate
+11620,MZ in dorsomedial parietal cortex,marginal,dorsal_parietal
+11618,MZ in posterodorsal (superior) parietal cortex,marginal,dorsal_parietal
+11610,MZ in dorsolateral prefrontal cortex,marginal,dorsolateral_pfc
+11607,MZ in dorsomedial frontal cortex,marginal,dorsolateral_pfc
+11622,MZ in superolateral temporal cortex,marginal,dorsolateral_temporal
+11635,MZ in dysgranular insular cortex,marginal,dysgranular_insula
+11643,MZ in rostral entorhinal cortex,marginal,entorhinal
+11614,MZ in dorsomedial extrastriate cortex (V2),marginal,extrastriate
+11616,MZ in midlateral extrastriate cortex (area 19),marginal,extrastriate
+11615,MZ in ventromedial extrastriate cortex (VP),marginal,extrastriate
+11612,MZ in frontal polar cortex,marginal,frontal_pole
+11636,MZ in granular insular cortex,marginal,granular_insula
+11627,MZ in lateral temporal-occipital cortex,marginal,lateral_temporal-occipital
+11626,MZ in medial temporal-occipital cortex,marginal,medial_temporal-occipital
+11631,MZ in midcingulate cortex,marginal,midcingulate
+11609,MZ in posteror frontal cortex (motor cortex),marginal,motor
+11628,MZ in temporal polar cortex,marginal,NO_LABEL
+11608,MZ in orbital frontal cortex,marginal,orbitofrontal
+11625,MZ in posterior parahippocampal cortex,marginal,parahippocampal
+11647,MZ in caudal perirhinal cortex,marginal,perirhinal
+11646,MZ in rostral perirhinal cortex,marginal,perirhinal
+11613,MZ in primary visual cortex,marginal,primary_visual
+11648,MZ in retrosplenial cortex,marginal,retrosplenial
+11630,MZ in rostral cingulate cortex,marginal,rostral_cingulate
+11617,MZ in primary somatosensory cortex,marginal,sensory
+11619,MZ in posteroventral (inferior) parietal cortex,marginal,ventral_parietal
+11611,MZ in ventrolateral prefrontal cortex,marginal,ventrolateral_pfc
+11623,MZ in inferolateral temporal cortex,marginal,ventrolateral_temporal
+11624,MZ in midinferior temporal cortex,marginal,ventrolateral_temporal
+13084,MZ in rostral midinferior temporal cortex (area 36),marginal,ventrolateral_temporal
+11314,molecular layer of caudal subiculum,marginal,hippocampus
+11310,molecular layer of rostral subiculum,marginal,hippocampus
+12270,interpeduncular nucleus,midbrain,brain_tissue
+12309,central nucleus of inferior colliculus,midbrain,brain_tissue
+12223,dorsal raphe nucleus,midbrain,brain_tissue
+12197,Edinger-Westphal nucleus (accessory oculomotor nucleus),midbrain,brain_tissue
+12305,inferior colliculus,midbrain,brain_tissue
+12239,midbrain reticular formation,midbrain,brain_tissue
+12198,oculomotor nucleus,midbrain,brain_tissue
+12312,parabigeminal nucleus,midbrain,brain_tissue
+12243,pedunculo(pontine) tegmental  nucleus,midbrain,brain_tissue
+12210,"periaqueductal gray substance, dorsolateral portion",midbrain,brain_tissue
+12216,"periaqueductal gray substance, ventral portion",midbrain,brain_tissue
+12287,precommissural nucleus,midbrain,brain_tissue
+12182,pretectal nuclear complex,midbrain,brain_tissue
+12247,red nucleus,midbrain,brain_tissue
+12252,"substantia nigra, compact part",midbrain,brain_tissue
+12259,"substantia nigra, reticular part",midbrain,brain_tissue
+12292,superior colliculus,midbrain,brain_tissue
+12261,ventral tegmental area,midbrain,brain_tissue
+13077,callosal sling,???,brain_tissue
+10304,indusium griseum,???,NO_LABEL
+10307,olfactory bulb,???,brain_tissue
+10310,olfactory tubercle,???,brain_tissue
+11284,stratum oriens of caudal CA1,???,hippocampus
+11279,stratum oriens of rostral CA1,???,hippocampus
+11282,stratum radiatum of caudal CA1,???,hippocampus
+11277,stratum radiatum of rostral CA1,???,hippocampus
+11350,caudal presubiculum (postsubiculum),???,hippocampus
+11321,caudal prosubiculum,???,hippocampus
+11316,polymorphic layer of caudal subiculum,???,hippocampus
+11312,polymorphic layer of rostral subiculum,???,hippocampus
+11599,SG in primary auditory cortex,subpial,auditory
+11597,SG in dorsomedial parietal cortex (area 7m),subpial,dorsal_parietal
+11585,SG in dorsolateral prefrontal cortex,subpial,dorsolateral_pfc
+12972,SG in dysgranular insular cortex,subpial,dysgranular_insula
+12978,SG in caudal entorhinal cortex,subpial,entorhinal
+12977,SG in rostral entorhinal cortex,subpial,entorhinal
+11592,SG in midlateral extrastriate cortex (area 19),subpial,extrastriate
+11587,SG in frontal polar cortex,subpial,frontal_pole
+12973,SG in granular insular cortex,subpial,granular_insula
+11605,SG in lateral temporal-occipital cortex,subpial,lateral_temporal-occipital
+11604,SG in medial temporal-occipital cortex,subpial,medial_temporal-occipital
+11584,SG in posterior frontal cortex (motor cortex),subpial,motor
+11606,SG in temporal polar cortex,subpial,NO_LABEL
+13214,SG in caudal perirhinal cortex,subpial,perirhinal
+12979,SG in rostral perirhinal cortex,subpial,perirhinal
+11589,SG in primary visual cortex,subpial,primary_visual
+11594,SG in primary somatosensory cortex,subpial,sensory
+11586,SG in ventrolateral prefrontal cortex,subpial,ventrolateral_pfc
+11601,SG in inferolateral temporal cortex,subpial,ventrolateral_temporal
+11602,SG in midinferior temporal cortex,subpial,ventrolateral_temporal
+13203,SG in midlateral temporal cortex,subpial,ventrolateral_temporal
+11272,granular layer of caudal dentate gyrus,subpial,dentate
+11267,granular layer of rostral dentate gyrus,subpial,dentate
+11281,stratum lacunosum-moleculare of caudal CA1,subpial,hippocampus
+11276,stratum lacunosum-moleculare of rostral CA1,subpial,hippocampus
+11273,subgranular zone of caudal dentate gyrus,subpial,hippocampus
+11268,subgranular zone of rostral dentate gyrus,subpial,hippocampus
+11351,superficial layers of caudal presubiculum,subpial,entorhinal
+11372,superficial layers of olfactory entorhinal cortex,subpial,entorhinal
+11770,SP in primary auditory cortex,subplate,auditory
+11781,SP in caudal cingulate cortex,subplate,caudal_cingulate
+11767,SP in posterosuperior (dorsal) parietal cortex,subplate,dorsal_parietal
+11769,SP in dorsomedial parietal cortex (area 7m),subplate,dorsal_parietal
+11759,SP in dorsolateral prefrontal cortex,subplate,dorsolateral_pfc
+11756,SP in dorsomedial frontal cortex,subplate,dorsolateral_pfc
+11771,SP in superolateral temporal cortex,subplate,dorsolateral_temporal
+11784,SP in dysgranular insular cortex,subplate,dysgranular_insula
+11789,SP in entorhinal cortex,subplate,entorhinal
+11763,SP in dorsomedial extrastriate cortex (V2),subplate,extrastriate
+11765,SP in midlateral extrastriate cortex (area 19),subplate,extrastriate
+11764,SP in ventromedial extrastriate cortex (VP),subplate,extrastriate
+11761,SP in frontal polar cortex,subplate,frontal_pole
+11785,SP in granular insular cortex,subplate,granular_insula
+13118,SP in caudal hippocampal proper,subplate,hippocampus
+11776,SP in lateral temporal-occipital cortex,subplate,lateral_temporal-occipital
+11775,SP in medial temporal-occipital cortex,subplate,medial_temporal-occipital
+11780,SP in midcingulate cortex,subplate,midcingulate
+11758,SP in posteror frontal cortex (motor cortex),subplate,motor
+11777,SP in temporal polar cortex,subplate,NO_LABEL
+11757,SP in orbital frontal cortex,subplate,orbitofrontal
+11774,SP in posterior parahippocampal cortex,subplate,parahippocampal
+13126,SP in caudal perirhinal cortex,subplate,perirhinal
+11790,SP in perirhinal cortex,subplate,perirhinal
+13125,SP in rostral perirhinal cortex,subplate,perirhinal
+11762,SP in primary visual cortex,subplate,primary_visual
+11779,SP in rostral cingulate cortex,subplate,rostral_cingulate
+11766,SP in primary somatosensory cortex,subplate,sensory
+11782,SP in subgenual (subcallosal) cingulate cortex,subplate,subcallosal_cingulate
+11768,SP in posteroinferior (ventral) parietal cortex,subplate,ventral_parietal
+11760,SP in ventrolateral prefrontal cortex,subplate,ventrolateral_pfc
+11772,SP in inferolateral temporal cortex,subplate,ventrolateral_temporal
+13115,SP in caudal midinferior temporal cortex (area TF),subplate,ventrolateral_temporal
+11773,SP in midinferior temporal cortex,subplate,ventrolateral_temporal
+13113,SP in midlateral temporal cortex,subplate,ventrolateral_temporal
+13114,SP in rostral midinferior temporal cortex (area 36),subplate,ventrolateral_temporal
+13120,SP in caudal subicular cortex,subplate,hippocampus
+11987,SZ in caudal cingulate cortex,subventricular,caudal_cingulate
+11936,inner SZ in posterosuperior (dorsal) parietal cortex,subventricular,dorsal_parietal
+11934,outer SZ in posterosuperior (dorsal) parietal cortex,subventricular,dorsal_parietal
+11946,inner SZ in dorsomedial parietal cortex (area 7m),subventricular,dorsal_parietal
+11944,outer SZ in dorsomedial parietal cortex (area 7m),subventricular,dorsal_parietal
+11898,inner SZ in dorsolateral prefrontal cortex,subventricular,dorsolateral_pfc
+11896,outer SZ in dorsolateral prefrontal cortex,subventricular,dorsolateral_pfc
+11883,inner SZ in dorsomedial frontal cortex,subventricular,dorsolateral_pfc
+11881,outer SZ in dorsomedial frontal cortex,subventricular,dorsolateral_pfc
+11956,inner SZ in superolateral temporal cortex,subventricular,dorsolateral_temporal
+11954,outer SZ in superolateral temporal cortex,subventricular,dorsolateral_temporal
+11924,outer SZ in midlateral extrastriate cortex,subventricular,extrastriate
+11916,inner SZ in dorsomedial extrastriate cortex,subventricular,extrastriate
+11926,inner SZ in midlateral extrastriate cortex,subventricular,extrastriate
+11921,inner SZ in ventromedial extrastriate cortex,subventricular,extrastriate
+11914,outer SZ in dorsomedial extrastriate cortex,subventricular,extrastriate
+11919,outer SZ in ventromedial extrastriate cortex,subventricular,extrastriate
+11907,inner SZ in frontal polar cortex,subventricular,frontal_pole
+11906,outer SZ in frontal polar cortex,subventricular,frontal_pole
+11981,inner SZ in lateral temporal-occipital cortex,subventricular,lateral_temporal-occipital
+11979,outer SZ in lateral temporal-occipital cortex,subventricular,lateral_temporal-occipital
+11976,inner SZ in medial temporal-occipital cortex,subventricular,medial_temporal-occipital
+11974,outer SZ in medial temporal-occipital cortex,subventricular,medial_temporal-occipital
+11973,SZ in medial temporal-occipital cortex,subventricular,medial_temporal-occipital
+11986,SZ in midcingulate cortex,subventricular,midcingulate
+11893,inner SZ in posteror frontal cortex (motor cortex),subventricular,motor
+11891,outer SZ in posteror frontal cortex (motor cortex),subventricular,motor
+11888,inner SZ in orbital frontal cortex,subventricular,orbitofrontal
+11886,outer SZ in orbital frontal cortex,subventricular,orbitofrontal
+11971,inner SZ in posterior parahippocampal cortex,subventricular,parahippocampal
+11969,outer SZ in posterior parahippocampal cortex,subventricular,parahippocampal
+11968,SZ in posterior parahippocampal cortex,subventricular,parahippocampal
+11911,inner SZ in primary visual cortex,subventricular,primary_visual
+11909,outer SZ in primary visual cortex,subventricular,primary_visual
+11985,SZ in rostral cingulate cortex,subventricular,rostral_cingulate
+11931,inner SZ in primary somatosensory cortex,subventricular,sensory
+11929,outer SZ in primary somatosensory cortex,subventricular,sensory
+13288,SZ in subgenual cingulate cortex,subventricular,subcallosal_cingulate
+11941,inner SZ in posteroinferior (ventral) parietal cortex,subventricular,ventral_parietal
+11939,outer SZ in posteroinferior (ventral) parietal cortex,subventricular,ventral_parietal
+11903,inner SZ in ventrolateral prefrontal cortex,subventricular,ventrolateral_pfc
+11901,outer SZ in ventrolateral prefrontal cortex,subventricular,ventrolateral_pfc
+11961,inner SZ in inferolateral temporal cortex,subventricular,ventrolateral_temporal
+11959,outer SZ in inferolateral temporal cortex,subventricular,ventrolateral_temporal
+13172,inner SZ in caudal midinferior temporal cortex (area TF),subventricular,ventrolateral_temporal
+13162,inner SZ in midlateral temporal cortex,subventricular,ventrolateral_temporal
+13170,outer SZ in caudal midinferior temporal cortex (area TF),subventricular,ventrolateral_temporal
+13160,outer SZ in midlateral temporal cortex,subventricular,ventrolateral_temporal
+13146,outer plexiform zone in extrastriate cortex,subventricular,extrastriate
+10393,anterodorsal nucleus of thalamus,thalamus,brain_tissue
+10394,anteromedial nucleus of thalamus,thalamus,brain_tissue
+10395,anteroventral nucleus of thalamus,thalamus,brain_tissue
+13040,basal ventral medial nucleus,thalamus,brain_tissue
+10396,lateral dorsal nucleus of thalamus,thalamus,brain_tissue
+10398,mediodorsal nucleus of thalamus,thalamus,brain_tissue
+10463,zona incerta,thalamus,brain_tissue
+10449,centromedian nucleus of thalamus,thalamus,brain_tissue
+10408,lateral posterior nucleus of thalamus,thalamus,brain_tissue
+10450,parafascicular nucleus of thalamus,thalamus,brain_tissue
+10404,parataenial nucleus of thalamus,thalamus,brain_tissue
+10464,reticular nucleus of thalamus,thalamus,brain_tissue
+15534,retroparafascicular area of thalamus,thalamus,brain_tissue
+10403,reuniens nucleus (medioventral nucleus) of thalamus,thalamus,brain_tissue
+13054,subparafascicular nucleus of thalamus,thalamus,brain_tissue
+10417,ventral anterior nucleus of thalamus,thalamus,brain_tissue
+10420,ventral lateral nucleus of thalamus,thalamus,brain_tissue
+10427,ventral medial nucleus of thalamus,thalamus,brain_tissue
+10459,caudal subdivision of paraventricular nucleus,thalamus,brain_tissue
+10430,dorsal lateral geniculate nucleus,thalamus,brain_tissue
+13037,dorsal subdivision of VLC,thalamus,brain_tissue
+10413,inferior nucleus of pulvinar,thalamus,brain_tissue
+10453,lateral habenular nucleus,thalamus,brain_tissue
+10412,lateral nucleus of pulvinar,thalamus,brain_tissue
+13043,limitans nucleus,thalamus,brain_tissue
+10400,magnocellular (medial) division of MD,thalamus,brain_tissue
+10419,magnocellular division of VA,thalamus,brain_tissue
+10434,medial geniculate nuclei,thalamus,brain_tissue
+10456,medial habenular nucleus,thalamus,brain_tissue
+10411,medial nucleus of pulvinar,thalamus,brain_tissue
+13332,medial portion of STH,thalamus,brain_tissue
+13045,midline nuclear complex,thalamus,brain_tissue
+10401,multiform (lateral) division of MD,thalamus,brain_tissue
+10457,paraventricular nucleus,thalamus,brain_tissue
+10460,pineal body,thalamus,brain_tissue
+10421,rostral division of VL,thalamus,brain_tissue
+10458,rostral subdivision of paraventricular nucleus,thalamus,brain_tissue
+10466,subthalamic nucleus,thalamus,brain_tissue
+10426,ventral posterior inferior nucleus,thalamus,brain_tissue
+10424,ventral posterior lateral nucleus,thalamus,brain_tissue
+10425,ventral posterior medial nucleus,thalamus,brain_tissue
+10555,VZ in hypothalamic portion,ventricular,brain_tissue
+10553,VZ in postamygdaloid region,ventricular,brain_tissue
+13313,VZ in septal region,ventricular,brain_tissue
+10554,VZ in thalamic region,ventricular,brain_tissue
+12013,VZ in caudal cingulate neocortex,ventricular,caudal_cingulate
+11999,VZ in posterosuperior (dorsal) parietal cortex,ventricular,dorsal_parietal
+12001,VZ in dorsomedial parietal cortex (area 7m),ventricular,dorsal_parietal
+11991,VZ in dorsolateral prefrontal cortex,ventricular,dorsolateral_pfc
+11988,VZ in dorsomedial frontal cortex,ventricular,dorsolateral_pfc
+12003,VZ in superolateral temporal cortex,ventricular,dorsolateral_temporal
+12018,VZ in caudal entorhinal cortex,ventricular,entorhinal
+11995,VZ in dorsomedial extrastriate cortex (V2),ventricular,extrastriate
+11997,VZ in midlateral extrastriate cortex (area 19),ventricular,extrastriate
+11996,VZ in ventromedial extrastriate cortex (VP),ventricular,extrastriate
+11993,VZ in frontal polar cortex,ventricular,frontal_pole
+13187,VZ in caudal hippocampal proper,ventricular,hippocampus
+13189,VZ in caudal subicular cortex,ventricular,hippocampus
+12008,VZ in lateral temporal-occipital cortex,ventricular,lateral_temporal-occipital
+12007,VZ in medial temporal-occipital cortex,ventricular,medial_temporal-occipital
+12012,VZ in midcingulate neocortex,ventricular,midcingulate
+11990,VZ in posteror frontal cortex (motor cortex),ventricular,motor
+11989,VZ in orbital frontal cortex,ventricular,orbitofrontal
+12006,VZ in posterior parahippocampal cortex,ventricular,parahippocampal
+11994,VZ in primary visual cortex,ventricular,primary_visual
+12011,VZ in rostral cingulate neocortex,ventricular,rostral_cingulate
+11998,VZ in primary somatosensory cortex,ventricular,sensory
+13314,VZ in subcallosal region,ventricular,subcallosal_cingulate
+12014,VZ in subgenual cingulate neocortex,ventricular,subcallosal_cingulate
+12000,VZ in posteroinferior (ventral) parietal cortex,ventricular,ventral_parietal
+11992,VZ in ventrolateral prefrontal cortex,ventricular,ventrolateral_pfc
+12004,VZ in inferolateral temporal cortex,ventricular,ventrolateral_temporal
+13184,VZ in caudal midinferior temporal cortex (area TF),ventricular,ventrolateral_temporal
+13182,VZ in midlateral temporal cortex,ventricular,ventrolateral_temporal
+10556,rostral migratory stream,ventricular,NO_LABEL
+10561,corpus callosum,white_matter,brain_tissue
