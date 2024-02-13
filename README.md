@@ -78,8 +78,18 @@ Tissue sample loctions were matched to cortical regions in the μBrain atlas ([*
 see: [**process_microarray_data.py**](MicroarrayData/process_microarray_data.py)
 
 ## Analysis
-01-  
-02-  
+**01 cortical scaling**  
+
+
+![cortical scaling](docs/assets/images/scaling.png)  
+
+see: [**01-scaling-models.ipynb**](ANALYSIS/01-scaling-models.ipynb)
+
+**02 gene correlations**
+
+
+see: [**02-gene-correlations.ipynb**](ANALYSIS/02-gene-correlations.ipynb)
+
 03-  
 04-  
 05-  
