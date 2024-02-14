@@ -1,7 +1,7 @@
 # &mu;Brain
 #### A 3D volumetric reconstruction of the mid-gestation fetal brain  
 
-see: [preprint link]
+see: [Ball et al. 2024](https://www.biorxiv.org/content/10.1101/2024.02.13.580198v1)
 
 &mu;Brain a 3D digital atlas of the developing brain at micrometre scale based on a [public resource](https://www.brainspan.org/) of 81 serial histological sections of a prenatal human brain at 21 postconceptional weeks (PCW). Source data included serial coronal sections (20μm thickness) obtained from the right hemisphere of a single prenatal brain specimen, Nissl-stained, imaged at 1 micron resolution and labelled with detailed anatomical annotations.
 
